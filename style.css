@@ -1,0 +1,96 @@
+html
+{
+	background-image:url(background.png);
+	background-size:100%;
+	background-repeat:no-repeat;	
+}
+.container
+{
+        width:400px;
+		margin:auto;
+        position: center;
+		
+}
+#display {
+	display: block;
+	height: 42px;
+	width: 240px;
+	background-color:grey;
+	font-size: 28px;
+	color:white;
+	font-weight: 400;
+}
+
+.button
+{
+        width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        margin-left: 17px;
+        cursor: pointer;
+        border-top: 2px solid transparent;
+    
+}
+.button1 {
+	    width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        margin-left: 17px;
+        cursor: pointer;
+        border-top: 2px solid transparent;
+		color: black;
+        background:orange;
+}
+
+.button2 {
+	    width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        margin-left: 17px;
+        cursor: pointer;
+        border-top: 2px solid transparent;
+		color: black;
+        background: orange;
+}
+.button3 {
+	 width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        margin-left: 17px;
+        cursor: pointer;
+        border-top: 2px solid transparent;
+		color: black;
+        background: red;
+}
+	
+    
+
+.button:hover {
+  background: #E0B612;
+  transform: rotate(5deg);
+}
+.button1:hover {
+  background: #E0B612;
+  transform: rotate(5deg);
+}
+.button2:hover {
+  background: #E0B612;
+  transform: rotate(5deg);
+}
+.button3:hover {
+  transform: rotate(5deg);
+}
+
+}
+.button:active
+{
+	background-color:#938a82;
+	transform:translateY(4px);
+	opacity:0.1;
+	border:none;
+}
+	
